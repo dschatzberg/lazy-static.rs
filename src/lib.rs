@@ -69,6 +69,8 @@ The `Deref` implementation uses a hidden static variable that is guarded by a at
 */
 
 #![cfg_attr(feature="nightly", feature(const_fn, core_intrinsics))]
+#![cfg_attr(feature="nostd", feature(no_std))]
+#![cfg_attr(feature="nostd", no_std)]
 #![crate_type = "dylib"]
 
 pub mod lazy;

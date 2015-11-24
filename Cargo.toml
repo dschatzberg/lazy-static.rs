@@ -13,3 +13,4 @@ keywords = ["macro", "lazy", "static"]
 
 [features]
 nightly = []
+nostd = ["nightly"]
